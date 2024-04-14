@@ -1,0 +1,40 @@
+.howDoesThe {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.03em;
+  display: inline-block;
+  min-width: 237px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.vectorIcon {
+  height: 18.8px;
+  width: 18.8px;
+  position: relative;
+}
+.formfaq,
+.frame {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.frame {
+  overflow: hidden;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-10xs);
+}
+.formfaq {
+  align-self: stretch;
+  border-bottom: 1px solid var(--color-gray-800);
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-11xl) 0;
+  text-align: left;
+  font-size: var(--h5-size);
+  color: var(--color-white);
+  font-family: var(--body-small-tag);
+  ;
+}

@@ -1,0 +1,60 @@
+.icons {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg);
+  background-color: var(--color-white);
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.integrationEcosystem {
+  width: 188px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 24px;
+  display: inline-block;
+}
+.body {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-bold-size);
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  font-family: var(--body-bold);
+}
+.featureCards,
+.integrationEcosystemParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.integrationEcosystemParent {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+.featureCards {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-400);
+  border: 1px solid var(--color-gray-800);
+  box-sizing: border-box;
+  padding: var(--padding-21xl) var(--padding-lgi);
+  gap: var(--gap-5xl);
+  min-width: 270px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--h5-size);
+  color: var(--color-white);
+  font-family: var(--body-small-tag);
+}
